@@ -1,0 +1,66 @@
+header {
+    background-color: rgb(240, 248, 255, 0.3);
+}
+
+.container_header {
+    width: 75%;
+    height: 100px;
+    margin: auto;
+    position: relative;
+}
+
+.container_header img {
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 10px;
+    width: 80px;
+}
+
+.container_header a {
+    font-size: 27px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 36px;
+    margin-right: 8%;
+    float: right;
+}
+
+body {
+    background-color: rgb(36, 36, 64);
+}
+
+.container_main {
+    width: 900px;
+    height: 550px;
+    margin: 2% auto;
+}
+
+.container_main img {
+    width: 420px;
+    margin-top: 120px;
+    float: left;
+}
+
+.container_main h1 {
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+.text_main {
+    width: 430px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.text_main p {
+    font-size: 25px;
+    color: rgb(205, 205, 205);
+}
+
