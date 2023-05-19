@@ -27,7 +27,8 @@ header {
 }
 
 body {
-    background-color: rgb(36, 36, 64);
+    background-color: #242440;
+    background: linear-gradient(142deg, rgba(36,36,64,1) 28%, rgba(87,87,158,1) 100%);
 }
 
 .container_main {
@@ -37,30 +38,54 @@ body {
 }
 
 .container_main img {
-    width: 420px;
-    margin-top: 120px;
+    width: 403px;
     float: left;
+    margin: 120px 20px 20px 0;
 }
 
 .container_main h1 {
     font-family: 'Mukta', sans-serif;
     color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 100px;
-    margin-top: 20px;
-    margin-right: 0px;
+    font-size: 63px;
 }
 
-.text_main {
-    width: 430px;
-    height: 250px;
-    display: inline-block;
-    margin-left: 35px;
+.container_main p {
+    font-size: 23px;
+    color: rgb(179, 182, 205);
+    font-family: 'Mukta', sans-serif;
+    display: flex;
 }
 
-.text_main p {
-    font-size: 25px;
-    color: rgb(205, 205, 205);
+.container_second {
+    height: 500px;
+    width: 100%;
+    margin: 3% auto;
+    background-color: rgb(57, 52, 88);
+    display: flex;
+    justify-content: center;
 }
 
+.caixa_beneficio {
+    height: 400px;
+    width: 350px;
+    margin: 50px;
+}
+
+.caixa_beneficio img {
+    margin: 15px 0 0 125px;
+}
+
+.caixa_beneficio h1 {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.caixa_beneficio p {
+    font-family: 'Mukta', sans-serif;
+    color: rgb(193, 193, 193);
+    margin: 0 5%;
+    text-align: justify;
+    font-size: 19px;
+}
