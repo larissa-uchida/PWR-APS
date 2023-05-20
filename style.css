@@ -119,11 +119,15 @@ header {
     height: 125px;
     text-align: center;
     padding-top: 10px;
-    background-color: rgba(117, 120, 122, 0.19);
+    background-color: rgba(11, 8, 43, 0.547);
 }
 
 .container_footer img {
     width: 80px;
     margin: 0 auto;
+}
+
+.container_footer p {
+    color: rgba(255, 255, 255, 0.85);
 }
 
