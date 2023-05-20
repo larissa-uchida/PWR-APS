@@ -1,3 +1,9 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    background-color: #242440;
+    background: linear-gradient(142deg, rgba(36,36,64,1) 28%, rgba(87,87,158,1) 100%);
+}
+
 header {
     background-color: rgb(240, 248, 255, 0.3);
 }
@@ -53,12 +59,6 @@ header {
     color: white;
 }
 
-body {
-    font-family: 'Mukta', sans-serif;
-    background-color: #242440;
-    background: linear-gradient(142deg, rgba(36,36,64,1) 28%, rgba(87,87,158,1) 100%);
-}
-
 .container_main {
     width: 900px;
     height: 550px;
@@ -72,7 +72,6 @@ body {
 }
 
 .container_main h1 {
-    font-family: 'Mukta', sans-serif;
     color: white;
     font-size: 63px;
 }
@@ -80,7 +79,6 @@ body {
 .container_main p {
     font-size: 23px;
     color: rgb(179, 182, 205);
-    font-family: 'Mukta', sans-serif;
     display: flex;
 }
 
@@ -104,14 +102,12 @@ body {
 }
 
 .caixa_beneficio h1 {
-    font-family: 'Mukta', sans-serif;
     text-align: center;
     font-size: 40px;
     color: aliceblue;
 }
 
 .caixa_beneficio p {
-    font-family: 'Mukta', sans-serif;
     color: rgb(193, 193, 193);
     text-align: center;
     margin: 0 5%;
