@@ -113,8 +113,8 @@ body {
 .caixa_beneficio p {
     font-family: 'Mukta', sans-serif;
     color: rgb(193, 193, 193);
+    text-align: center;
     margin: 0 5%;
-    text-align: justify;
     font-size: 19px;
 }
 
