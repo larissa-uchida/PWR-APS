@@ -16,6 +16,21 @@ header {
     width: 80px;
 }
 
+#empresa {
+    width: 200px;
+    position: absolute;
+    margin: 30px 0 0 200px;
+}
+
+.container_header h1 {
+    display: inline;
+    font-size: 45px;
+    color: rgb(7, 8, 84);
+}
+#titulo {
+    color: rgb(76, 120, 242);
+}
+
 .container_header a {
     font-size: 27px;
     font-family: 'Mukta', sans-serif;
