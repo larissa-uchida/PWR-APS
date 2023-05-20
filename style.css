@@ -24,9 +24,20 @@ header {
     margin-top: 36px;
     margin-right: 8%;
     float: right;
+    text-decoration: none;
+    color: rgb(33, 33, 93);
+}
+
+.container_header a:hover {
+    text-decoration: underline;
+}
+
+.container_header a:active {
+    color: white;
 }
 
 body {
+    font-family: 'Mukta', sans-serif;
     background-color: #242440;
     background: linear-gradient(142deg, rgba(36,36,64,1) 28%, rgba(87,87,158,1) 100%);
 }
