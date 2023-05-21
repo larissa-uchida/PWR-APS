@@ -78,12 +78,12 @@ header {
 
 .container_main p {
     font-size: 23px;
-    color: rgb(179, 182, 205);
+    color: rgb(175, 179, 206);
     display: flex;
 }
 
 .container_second {
-    height: 500px;
+    height: 460px;
     width: 100%;
     margin: 3% auto 0 auto;
     background-color: rgb(57, 52, 88);
@@ -92,13 +92,16 @@ header {
 }
 
 .caixa_beneficio {
-    height: 400px;
+    height: 350px;
     width: 350px;
     margin: 50px;
+    position: relative;
 }
 
 .caixa_beneficio img {
-    margin: 15px 0 0 125px;
+    position: absolute;
+    bottom: 0;
+    margin: 20px 0 0 125px;
 }
 
 .caixa_beneficio h1 {
@@ -108,7 +111,7 @@ header {
 }
 
 .caixa_beneficio p {
-    color: rgb(193, 193, 193);
+    color: rgb(217, 208, 233);
     text-align: center;
     margin: 0 5%;
     font-size: 19px;
